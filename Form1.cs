@@ -15,6 +15,23 @@ namespace FlowerShop
         public Form1()
         {
             InitializeComponent();
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox2.BackColor = Color.Transparent;
+            pictureBox3.BackColor = Color.Transparent;
+            pictureBox4.BackColor = Color.Transparent;
+            pictureBox5.BackColor = Color.Transparent;
+            pictureBox6.BackColor = Color.Transparent;
+            pictureBox8.BackColor = Color.Transparent;
+            label1.BackColor = Color.Transparent;
+            label1.Parent = pictureBox5;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MinimumSize = this.Size;
+            this.MaximumSize = this.Size;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

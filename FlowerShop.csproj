@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +79,50 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\hall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\nextRoom-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\shop-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\inventar-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\water-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\money-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\setings-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\blueFlower-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\npc6-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="textures\emptyWaterBoiler-removebg-preview.png" />
+    <Content Include="textures\fullWaterBoiler-removebg-preview.png" />
+    <Content Include="textures\grownBlueFlower-removebg-preview.png" />
+    <Content Include="textures\grownPurpleFlower-removebg-preview.png" />
+    <Content Include="textures\npc1-removebg-preview.png" />
+    <Content Include="textures\npc2-removebg-preview.png" />
+    <Content Include="textures\npc3-removebg-preview.png" />
+    <Content Include="textures\npc4-removebg-preview.png" />
+    <Content Include="textures\npc5-removebg-preview.png" />
+    <Content Include="textures\purpleFlower-removebg-preview.png" />
+    <Content Include="textures\seeda-removebg-preview.png" />
+    <Content Include="textures\smallBlueFlower-removebg-preview.png" />
+    <Content Include="textures\smallPurpleFlower-removebg-preview.png" />
+    <Content Include="textures\vedro-removebg-preview.png" />
+    <Content Include="textures\waterBoiler-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
