@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace FlowerShop
 {
-    internal class Flower
+    public class Flower
     {
+        public int price;
+        public int quantity;
+        public int ripening_time;
+    }
+
+    public class BlueFlower : Flower
+    {
+
     }
 }
