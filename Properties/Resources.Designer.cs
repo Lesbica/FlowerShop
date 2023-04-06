@@ -83,6 +83,16 @@ namespace FlowerShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BlueSeeds {
+            get {
+                object obj = ResourceManager.GetObject("BlueSeeds", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit {
             get {
                 object obj = ResourceManager.GetObject("exit", resourceCulture);
@@ -96,6 +106,16 @@ namespace FlowerShop.Properties {
         internal static System.Drawing.Bitmap fullWaterBoiler_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("fullWaterBoiler-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grownBlueFlower_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("grownBlueFlower-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +183,16 @@ namespace FlowerShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap purpleFlower_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("purpleFlower-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap seeda {
             get {
                 object obj = ResourceManager.GetObject("seeda", resourceCulture);
@@ -176,6 +206,16 @@ namespace FlowerShop.Properties {
         internal static System.Drawing.Bitmap seeda_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("seeda-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SeedsMenu {
+            get {
+                object obj = ResourceManager.GetObject("SeedsMenu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +246,16 @@ namespace FlowerShop.Properties {
         internal static System.Drawing.Bitmap shop_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("shop-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap smallBlueFlower_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("smallBlueFlower-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -63,6 +63,7 @@
             this.ClientSize = new System.Drawing.Size(869, 660);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.DoubleBuffered = true;
             this.Name = "Settings";
             this.Text = "Settings";
             this.ResumeLayout(false);

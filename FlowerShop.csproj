@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Flower.cs" />
+    <Compile Include="Seeds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seeds.Designer.cs">
+      <DependentUpon>Seeds.cs</DependentUpon>
+    </Compile>
     <Compile Include="Shop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Seeds.resx">
+      <DependentUpon>Seeds.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Shop.resx">
       <DependentUpon>Shop.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="textures\continue.jpg" />
+    <None Include="textures\BlueSeeds.jpg" />
     <Content Include="textures\emptyWaterBoiler-removebg-preview.png" />
     <None Include="textures\exit.jpg" />
     <Content Include="textures\fullWaterBoiler-removebg-preview.png" />
@@ -143,6 +153,7 @@
     <Content Include="textures\seeda-removebg-preview.png" />
     <None Include="textures\seeda.jpg" />
     <None Include="textures\settingsMenu.jpg" />
+    <None Include="textures\SeedsMenu.jpg" />
     <Content Include="textures\smallBlueFlower-removebg-preview.png" />
     <Content Include="textures\smallPurpleFlower-removebg-preview.png" />
     <Content Include="textures\vedro-removebg-preview.png" />
