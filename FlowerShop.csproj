@@ -46,16 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Flower.cs" />
+    <Compile Include="Shop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Shop.Designer.cs">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="podsobka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="podsobka.Designer.cs">
+      <DependentUpon>podsobka.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Shop.resx">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="podsobka.resx">
+      <DependentUpon>podsobka.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +83,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -108,7 +127,9 @@
     <None Include="textures\npc6-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="textures\continue.jpg" />
     <Content Include="textures\emptyWaterBoiler-removebg-preview.png" />
+    <None Include="textures\exit.jpg" />
     <Content Include="textures\fullWaterBoiler-removebg-preview.png" />
     <Content Include="textures\grownBlueFlower-removebg-preview.png" />
     <Content Include="textures\grownPurpleFlower-removebg-preview.png" />
@@ -117,8 +138,11 @@
     <Content Include="textures\npc3-removebg-preview.png" />
     <Content Include="textures\npc4-removebg-preview.png" />
     <Content Include="textures\npc5-removebg-preview.png" />
+    <None Include="textures\podsobka.jpg" />
     <Content Include="textures\purpleFlower-removebg-preview.png" />
     <Content Include="textures\seeda-removebg-preview.png" />
+    <None Include="textures\seeda.jpg" />
+    <None Include="textures\settingsMenu.jpg" />
     <Content Include="textures\smallBlueFlower-removebg-preview.png" />
     <Content Include="textures\smallPurpleFlower-removebg-preview.png" />
     <Content Include="textures\vedro-removebg-preview.png" />
