@@ -12,10 +12,13 @@ namespace FlowerShop
 {
     public partial class podsobka : Form
     {
-        public BlueFlower blueFlower;
-        public podsobka()
+        private User user;
+        private BlueFlower blueFlower;
+        public podsobka(User user, BlueFlower blueFlower)
         {
             InitializeComponent();
+            this.user = user;
+            this.blueFlower = blueFlower;
             blueFlower = new BlueFlower();
             for (int i = this.Controls.Count - 1; i >= 0; i--)
             {
@@ -28,8 +31,10 @@ namespace FlowerShop
             }
             label1.BackColor = Color.Transparent;
             label1.Parent = pictureBox2;
-            BlueFlowerGrow.Interval = blueFlower.GetRipening_Time()/3;
-            pictureBox13.Location = new Point(583, 495);
+
+            label2.BackColor = Color.Transparent;
+            label2.Parent = pictureBox3;
+            BlueFlowerGrow.Interval = blueFlower.Ripening_time/3;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MinimumSize = this.Size;
             this.MaximumSize = this.Size;
@@ -42,7 +47,7 @@ namespace FlowerShop
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            if (!pictureBox11.Visible) {
+            if (!pictureBox11.Visible && !pictureBox13.Visible) {
                 pictureBox11.Visible = true;
             }
             else
@@ -72,26 +77,27 @@ namespace FlowerShop
 
         private void BlueFlowerGrow_Tick(object sender, EventArgs e)
         {
-            pictureBox13.Visible = true;
-            if(BlueFlowerGrow.Interval == blueFlower.ripening_time)
+            if (pictureBox13.Image.Equals(blueFlower.Images[0]))
             {
-                BlueFlowerGrow.Stop();
-            }
-
-            if (pictureBox13.Image.Equals(blueFlower.images[0]))
-            {
-                pictureBox13.Image = blueFlower.images[1];
+                pictureBox13.Image = blueFlower.Images[1];
             }
             else
             {
-                pictureBox13.Image = blueFlower.images[2];
+                pictureBox13.Image = blueFlower.Images[2];
+                BlueFlowerGrow.Stop();
             }
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
-            Seeds seeds = new Seeds();
+            Seeds seeds = new Seeds(user);
             seeds.ShowDialog();
+            if (seeds.IsBlueSeedsPictureBoxClicked)
+            {
+                pictureBox13.Visible = true;
+                pictureBox13.Image = blueFlower.Images[0];
+                BlueFlowerGrow.Start();
+            }
             pictureBox11.Visible = false;
         }
     }

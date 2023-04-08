@@ -12,9 +12,12 @@ namespace FlowerShop
 {
     public partial class Seeds : Form
     {
-        public Seeds()
+        private User user;
+        public bool IsBlueSeedsPictureBoxClicked { get; set; } = false;
+        public Seeds(User user)
         {
             InitializeComponent();
+            this.user = user;
             for (int i = this.Controls.Count - 1; i >= 0; i--)
             {
                 Control control = this.Controls[i];
@@ -25,6 +28,7 @@ namespace FlowerShop
                 }
             }
             label1.BackColor = Color.Transparent;
+            label1.Text = user.BlueSeeds.ToString();
             label1.Parent = pictureBox1;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MinimumSize = this.Size;
@@ -34,6 +38,20 @@ namespace FlowerShop
         private void Seeds_Deactivate(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if(user.BlueSeeds == 0)
+            {
+                MessageBox.Show("Not enough seeds");
+            }
+            else
+            {
+                user.BlueSeeds -= 1;
+                IsBlueSeedsPictureBoxClicked = true;
+                this.Close();
+            }
         }
     }
 }

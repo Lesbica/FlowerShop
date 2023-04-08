@@ -12,6 +12,8 @@ namespace FlowerShop
 {
     public partial class Shop : Form
     {
+        private User user = new User();
+        private BlueFlower blueFlower = new BlueFlower(); 
         public Shop()
         {
             InitializeComponent();
@@ -40,7 +42,7 @@ namespace FlowerShop
         {
             if (!Application.OpenForms.OfType<podsobka>().Any())
             {
-                podsobka podsobka1 = new podsobka();
+                podsobka podsobka1 = new podsobka(user, blueFlower);
                 podsobka1.Show();
             }
 

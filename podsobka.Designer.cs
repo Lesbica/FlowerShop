@@ -44,6 +44,7 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.BlueFlowerGrow = new System.Windows.Forms.Timer(this.components);
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -205,7 +206,6 @@
             // pictureBox13
             // 
             this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox13.Image = global::FlowerShop.Properties.Resources.smallBlueFlower_removebg_preview;
             this.pictureBox13.Location = new System.Drawing.Point(583, 495);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(146, 97);
@@ -214,6 +214,19 @@
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Visible = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.Window;
+            this.label2.Font = new System.Drawing.Font("Matura MT Script Capitals", 16F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(223, 70);
+            this.label2.MaximumSize = new System.Drawing.Size(100, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(30, 36);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "$";
+            // 
             // podsobka
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -221,6 +234,7 @@
             this.BackgroundImage = global::FlowerShop.Properties.Resources.podsobka;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1730, 941);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox13);
@@ -273,5 +287,6 @@
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.Timer BlueFlowerGrow;
         private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Label label2;
     }
 }

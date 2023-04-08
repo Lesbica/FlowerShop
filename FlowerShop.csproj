@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\FlowerShop.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -73,6 +74,7 @@
     <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
     <EmbeddedResource Include="Seeds.resx">
       <DependentUpon>Seeds.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,7 +132,9 @@
     <None Include="textures\setings-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="textures\blueFlower-removebg-preview.png" />
+    <None Include="textures\blueFlower-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="textures\npc6-removebg-preview.png" />
@@ -141,7 +145,9 @@
     <Content Include="textures\emptyWaterBoiler-removebg-preview.png" />
     <None Include="textures\exit.jpg" />
     <Content Include="textures\fullWaterBoiler-removebg-preview.png" />
-    <Content Include="textures\grownBlueFlower-removebg-preview.png" />
+    <Content Include="textures\grownBlueFlower-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="textures\grownPurpleFlower-removebg-preview.png" />
     <Content Include="textures\npc1-removebg-preview.png" />
     <Content Include="textures\npc2-removebg-preview.png" />
@@ -154,7 +160,9 @@
     <None Include="textures\seeda.jpg" />
     <None Include="textures\settingsMenu.jpg" />
     <None Include="textures\SeedsMenu.jpg" />
-    <Content Include="textures\smallBlueFlower-removebg-preview.png" />
+    <Content Include="textures\smallBlueFlower-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="textures\smallPurpleFlower-removebg-preview.png" />
     <Content Include="textures\vedro-removebg-preview.png" />
     <Content Include="textures\waterBoiler-removebg-preview.png" />
