@@ -111,25 +111,39 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="textures\hall.jpg" />
+    <None Include="textures\hall.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="textures\nextRoom-removebg-preview.png" />
+    <None Include="textures\nextRoom-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="textures\shop-removebg-preview.png" />
+    <None Include="textures\shop-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="textures\inventar-removebg-preview.png" />
+    <None Include="textures\inventar-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="textures\water-removebg-preview.png" />
+    <None Include="textures\water-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="textures\money-removebg-preview.png" />
+    <None Include="textures\money-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="textures\setings-removebg-preview.png" />
+    <None Include="textures\setings-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="textures\blueFlower-removebg-preview.png">
@@ -137,35 +151,77 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="textures\npc6-removebg-preview.png" />
+    <None Include="textures\npc6-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="textures\continue.jpg" />
-    <None Include="textures\BlueSeeds.jpg" />
-    <Content Include="textures\emptyWaterBoiler-removebg-preview.png" />
-    <None Include="textures\exit.jpg" />
-    <Content Include="textures\fullWaterBoiler-removebg-preview.png" />
+    <None Include="textures\continue.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="textures\BlueSeeds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="textures\emptyWaterBoiler-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="textures\exit.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="textures\fullWaterBoiler-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="textures\grownBlueFlower-removebg-preview.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="textures\grownPurpleFlower-removebg-preview.png" />
-    <Content Include="textures\npc1-removebg-preview.png" />
-    <Content Include="textures\npc2-removebg-preview.png" />
-    <Content Include="textures\npc3-removebg-preview.png" />
-    <Content Include="textures\npc4-removebg-preview.png" />
-    <Content Include="textures\npc5-removebg-preview.png" />
-    <None Include="textures\podsobka.jpg" />
-    <Content Include="textures\purpleFlower-removebg-preview.png" />
-    <Content Include="textures\seeda-removebg-preview.png" />
-    <None Include="textures\seeda.jpg" />
-    <None Include="textures\settingsMenu.jpg" />
-    <None Include="textures\SeedsMenu.jpg" />
+    <Content Include="textures\grownPurpleFlower-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textures\npc1-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textures\npc2-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textures\npc3-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textures\npc4-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textures\npc5-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="textures\podsobka.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="textures\purpleFlower-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textures\seeda-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="textures\seeda.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="textures\settingsMenu.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="textures\SeedsMenu.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Content Include="textures\smallBlueFlower-removebg-preview.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="textures\smallPurpleFlower-removebg-preview.png" />
-    <Content Include="textures\vedro-removebg-preview.png" />
-    <Content Include="textures\waterBoiler-removebg-preview.png" />
+    <Content Include="textures\smallPurpleFlower-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textures\vedro-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textures\waterBoiler-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
