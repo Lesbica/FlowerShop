@@ -15,6 +15,7 @@ namespace FlowerShop
         private User user = new User();
         private BlueFlower blueFlower = new BlueFlower();
         private PurpleFlower purpleFlower = new PurpleFlower();
+        private RedFlower redFlower = new RedFlower();
 
         public Shop()
         {
@@ -44,7 +45,7 @@ namespace FlowerShop
         {
             if (!Application.OpenForms.OfType<podsobka>().Any())
             {
-                podsobka podsobka1 = new podsobka(user, blueFlower, purpleFlower);
+                podsobka podsobka1 = new podsobka(user, blueFlower, purpleFlower, redFlower);
                 podsobka1.Show();
             }
 

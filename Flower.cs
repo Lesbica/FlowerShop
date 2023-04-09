@@ -37,4 +37,16 @@ namespace FlowerShop
             Images[2] = Image.FromFile(@"textures\grownPurpleFlower-removebg-preview.png");
         }
     }
+
+    public class RedFlower : Flower
+    {
+        public RedFlower()
+        {
+            Price = 14;
+            Ripening_time = 18000;
+            Images[0] = Image.FromFile(@"textures\smallRedFlower-removebg-preview.png");
+            Images[1] = Image.FromFile(@"textures\redFlower-removebg-preview.png");
+            Images[2] = Image.FromFile(@"textures\GrownRedFlower-removebg-preview.png");
+        }
+    }
 }

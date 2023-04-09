@@ -133,6 +133,16 @@ namespace FlowerShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hall1 {
+            get {
+                object obj = ResourceManager.GetObject("hall1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap inventar_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("inventar-removebg-preview", resourceCulture);
@@ -176,6 +186,16 @@ namespace FlowerShop.Properties {
         internal static System.Drawing.Bitmap podsobka {
             get {
                 object obj = ResourceManager.GetObject("podsobka", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap podsobka1 {
+            get {
+                object obj = ResourceManager.GetObject("podsobka1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
