@@ -193,6 +193,26 @@ namespace FlowerShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PurpleSeeds {
+            get {
+                object obj = ResourceManager.GetObject("PurpleSeeds", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RedSeeds {
+            get {
+                object obj = ResourceManager.GetObject("RedSeeds", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap seeda {
             get {
                 object obj = ResourceManager.GetObject("seeda", resourceCulture);

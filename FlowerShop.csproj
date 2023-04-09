@@ -198,6 +198,8 @@
     <Content Include="textures\purpleFlower-removebg-preview.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="textures\PurpleSeeds.jpg" />
+    <None Include="textures\RedSeeds.jpg" />
     <Content Include="textures\seeda-removebg-preview.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

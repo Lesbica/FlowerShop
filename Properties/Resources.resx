@@ -133,6 +133,9 @@
   <data name="SeedsMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\SeedsMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PurpleSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\PurpleSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="podsobka" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\podsobka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,10 +181,13 @@
   <data name="npc6-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\npc6-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BlueSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\BlueSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="seeda-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\seeda-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BlueSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\BlueSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RedSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\RedSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

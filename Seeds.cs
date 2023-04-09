@@ -14,6 +14,9 @@ namespace FlowerShop
     {
         private User user;
         public bool IsBlueSeedsPictureBoxClicked { get; set; } = false;
+        public bool IsPurpleSeedsPictureBoxClicked { get; set; } = false;
+        public bool IsRedSeedsPictureBoxClicked { get; set; } = false;
+
         public Seeds(User user)
         {
             InitializeComponent();
@@ -50,6 +53,34 @@ namespace FlowerShop
             {
                 user.BlueSeeds -= 1;
                 IsBlueSeedsPictureBoxClicked = true;
+                this.Close();
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (user.PurpleSeeds == 0)
+            {
+                MessageBox.Show("Not enough seeds");
+            }
+            else
+            {
+                user.PurpleSeeds -= 1;
+                IsPurpleSeedsPictureBoxClicked = true;
+                this.Close();
+            }
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            if (user.RedSeeds == 0)
+            {
+                MessageBox.Show("Not enough seeds");
+            }
+            else
+            {
+                user.RedSeeds -= 1;
+                IsRedSeedsPictureBoxClicked = true;
                 this.Close();
             }
         }
