@@ -38,6 +38,7 @@ namespace FlowerShop
             }
             label1.BackColor = Color.Transparent;
             label1.Parent = pictureBox2;
+            label1.Text += user.Money;
 
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MinimumSize = this.Size;
