@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Flower.cs" />
+    <Compile Include="inventar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventar.Designer.cs">
+      <DependentUpon>inventar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Seeds.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="inventar.resx">
+      <DependentUpon>inventar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Seeds.resx">
       <DependentUpon>Seeds.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +187,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="textures\GrownRedFlower-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="textures\menuInventarFlower.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="textures\menuInventarSeeds.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="textures\npc1-removebg-preview.png">

@@ -153,6 +153,16 @@ namespace FlowerShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menuInventarFlower {
+            get {
+                object obj = ResourceManager.GetObject("menuInventarFlower", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap money_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("money-removebg-preview", resourceCulture);

@@ -250,5 +250,11 @@ namespace FlowerShop
                     }
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            inventar inventar = new inventar(user);
+            inventar.ShowDialog();
+        }
     }
 }
