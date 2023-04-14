@@ -175,6 +175,7 @@
             // pictureBox13
             // 
             this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox13.Enabled = false;
             this.pictureBox13.Location = new System.Drawing.Point(583, 495);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(146, 97);
@@ -182,10 +183,12 @@
             this.pictureBox13.TabIndex = 13;
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Visible = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
             // 
             // pictureBox14
             // 
             this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox14.Enabled = false;
             this.pictureBox14.Location = new System.Drawing.Point(1016, 495);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(146, 97);
@@ -193,6 +196,7 @@
             this.pictureBox14.TabIndex = 15;
             this.pictureBox14.TabStop = false;
             this.pictureBox14.Visible = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // VedroSecond
             // 

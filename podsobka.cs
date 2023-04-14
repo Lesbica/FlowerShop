@@ -95,6 +95,7 @@ namespace FlowerShop
                         {
                             pictureBox13.Location = new Point(pictureBox9.Location.X - 35, pictureBox9.Location.Y - 295);
                             pictureBox13.Image = blueFlower.Images[2];
+                            pictureBox13.Enabled = true;
                             VedroFirst.Stop();
                         }
                         break;
@@ -110,6 +111,7 @@ namespace FlowerShop
                         {
                             pictureBox13.Location = new Point(pictureBox9.Location.X - 45, pictureBox9.Location.Y - 270);
                             pictureBox13.Image = purpleFlower.Images[2];
+                            pictureBox13.Enabled = true;
                             VedroFirst.Stop();
                         }
                         break;
@@ -125,6 +127,7 @@ namespace FlowerShop
                         {
                             pictureBox13.Location = new Point(pictureBox9.Location.X - 85, pictureBox9.Location.Y - 230);
                             pictureBox13.Image = redFlower.Images[2];
+                            pictureBox13.Enabled = true;
                             VedroFirst.Stop();
                         }
                         break;
@@ -215,6 +218,7 @@ namespace FlowerShop
                         {
                             pictureBox14.Location = new Point(pictureBox10.Location.X - 35, pictureBox10.Location.Y - 295);
                             pictureBox14.Image = blueFlower.Images[2];
+                            pictureBox14.Enabled = true;
                             VedroSecond.Stop();
                         }
                         break;
@@ -230,6 +234,7 @@ namespace FlowerShop
                         {
                             pictureBox14.Location = new Point(pictureBox10.Location.X - 45, pictureBox10.Location.Y - 270);
                             pictureBox14.Image = purpleFlower.Images[2];
+                            pictureBox14.Enabled = true;
                             VedroSecond.Stop();
                         }
                         break;
@@ -245,6 +250,7 @@ namespace FlowerShop
                         {
                             pictureBox14.Location = new Point(pictureBox10.Location.X - 85, pictureBox10.Location.Y - 230);
                             pictureBox14.Image = redFlower.Images[2];
+                            pictureBox14.Enabled = true;
                             VedroSecond.Stop();
                         }
                         break;
@@ -256,6 +262,74 @@ namespace FlowerShop
         {
             inventar inventar = new inventar(user);
             inventar.ShowDialog();
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            switch (FlowerNumber13)
+            {
+                case 1:
+                    {
+                        user.BlueFlower += 1;
+                        pictureBox13.Enabled = false;
+                        pictureBox13.Image = null;
+                        pictureBox13.Visible = false;
+                        FlowerNumber13 = 0;
+                        break;
+                    }
+                case 2:
+                    {
+                        user.PurpleFlower += 1;
+                        pictureBox13.Enabled = false;
+                        pictureBox13.Image = null;
+                        pictureBox13.Visible = false;
+                        FlowerNumber13 = 0;
+                        break;
+                    }
+                case 3:
+                    {
+                        user.RedFlower += 1;
+                        pictureBox13.Enabled = false;
+                        pictureBox13.Image = null;
+                        pictureBox13.Visible = false;
+                        FlowerNumber13 = 0;
+                        break;
+                    }
+            }
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            switch (FlowerNumber14)
+            {
+                case 1:
+                    {
+                        user.BlueFlower += 1;
+                        pictureBox14.Enabled = false;
+                        pictureBox14.Image = null;
+                        pictureBox14.Visible = false;
+                        FlowerNumber14 = 0;
+                        break;
+                    }
+                case 2:
+                    {
+                        user.PurpleFlower += 1;
+                        pictureBox14.Enabled = false;
+                        pictureBox14.Image = null;
+                        pictureBox14.Visible = false;
+                        FlowerNumber14 = 0;
+                        break;
+                    }
+                case 3:
+                    {
+                        user.RedFlower += 1;
+                        pictureBox14.Enabled = false;
+                        pictureBox14.Image = null;
+                        pictureBox14.Visible = false;
+                        FlowerNumber14 = 0;
+                        break;
+                    }
+            }
         }
     }
 }
