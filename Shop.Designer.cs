@@ -68,6 +68,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(148, 143);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
@@ -151,6 +152,7 @@
             this.DoubleBuffered = true;
             this.Name = "Shop";
             this.Text = "Shop";
+            this.Activated += new System.EventHandler(this.Shop_Activated);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

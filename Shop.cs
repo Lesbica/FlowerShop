@@ -33,7 +33,7 @@ namespace FlowerShop
 
             label1.BackColor = Color.Transparent;
             label1.Parent = pictureBox5;
-            label1.Text += user.Money;
+
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MinimumSize = this.Size;
             this.MaximumSize = this.Size;
@@ -64,6 +64,17 @@ namespace FlowerShop
         {
             inventar inventar = new inventar(user);
             inventar.ShowDialog();
+        }
+
+        private void Shop_Activated(object sender, EventArgs e)
+        {
+            label1.Text = user.Money.ToString();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Store store = new Store(user);
+            store.ShowDialog();
         }
     }
 }

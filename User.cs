@@ -8,7 +8,7 @@ namespace FlowerShop
 {
     public class User
     {
-        public uint Money = 0;
+        public uint Money = 100;
         public uint BlueSeeds = 10;
         public uint PurpleSeeds = 10;
         public uint RedSeeds = 10;

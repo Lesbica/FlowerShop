@@ -87,6 +87,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(148, 143);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox5
             // 
@@ -224,6 +225,7 @@
             this.DoubleBuffered = true;
             this.Name = "podsobka";
             this.Text = "podsobka";
+            this.Activated += new System.EventHandler(this.podsobka_Activated);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

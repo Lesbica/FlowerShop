@@ -118,85 +118,94 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="inventar-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\inventar-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BlueSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\BlueSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\exit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grownBlueFlower-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\grownBlueFlower-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="podsobka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\podsobka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inventar-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\inventar-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blueFlower-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\blueFlower-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SeedsMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\SeedsMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="podsobka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\podsobka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RedSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\RedSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PurpleSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\PurpleSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nextRoom-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\nextRoom-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fullWaterBoiler-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\fullWaterBoiler-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="podsobka1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\podsobka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="water-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\water-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="continue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\continue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="setings-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\setings-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shop-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\shop-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ShopWallpaper1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\ShopWallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="smallBlueFlower-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\smallBlueFlower-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="money-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\money-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="purpleFlower-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\purpleFlower-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grownBlueFlower-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\grownBlueFlower-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="seeda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\seeda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vedro-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\vedro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="setings-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\setings-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="money-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\money-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\hall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RedSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\RedSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="settingsMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\settingsMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fullWaterBoiler-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\fullWaterBoiler-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nextRoom-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\nextRoom-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menuInventarFlower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\menuInventarFlower.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShopWallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\ShopWallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeedsMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\SeedsMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\hall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\PurpleSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="water-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\water-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vedro-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\vedro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podsobka1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\podsobka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="npc6-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\npc6-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\hall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BlueSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\BlueSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="continue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\continue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="seeda-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\seeda-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menuInventarFlower" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\menuInventarFlower.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="shop-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\shop-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\hall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\shopButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
