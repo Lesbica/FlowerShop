@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BlueSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\BlueSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="purpleFlower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\purpleFlower.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\shopButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\exit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,14 +157,23 @@
   <data name="setings-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\setings-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\hall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="RedSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\RedSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPCMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\NPCMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="settingsMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\settingsMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fullWaterBoiler-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\fullWaterBoiler-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blueFlower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\blueFlower.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nextRoom-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\nextRoom-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,10 +214,10 @@
   <data name="shop-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\shop-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\hall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BlueSeeds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\BlueSeeds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\shopButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="redFlower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\redFlower.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

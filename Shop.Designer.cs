@@ -38,6 +38,8 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.NPCTimer = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -120,6 +122,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(210, 503);
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // label1
             // 
@@ -133,6 +136,16 @@
             this.label1.Size = new System.Drawing.Size(29, 32);
             this.label1.TabIndex = 8;
             this.label1.Text = "$";
+            // 
+            // NPCTimer
+            // 
+            this.NPCTimer.Interval = 3000;
+            this.NPCTimer.Tick += new System.EventHandler(this.NPCTimer_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 60000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // Shop
             // 
@@ -177,6 +190,8 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer NPCTimer;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 

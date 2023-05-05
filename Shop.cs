@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,6 +17,7 @@ namespace FlowerShop
         private BlueFlower blueFlower = new BlueFlower();
         private PurpleFlower purpleFlower = new PurpleFlower();
         private RedFlower redFlower = new RedFlower();
+        private NPC nPC = new NPC();
 
         public Shop()
         {
@@ -41,7 +43,7 @@ namespace FlowerShop
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            timer2.Start();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -75,6 +77,38 @@ namespace FlowerShop
         {
             Store store = new Store(user);
             store.ShowDialog();
+        }
+
+        private void NPCTimer_Tick(object sender, EventArgs e)
+        {
+            pictureBox8.BackgroundImage = nPC.RandomNpc();
+            pictureBox8.Enabled = true;
+            NPCTimer.Stop();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+            NPCTimer.Stop();
+            NPCMenu nPCMenu = new NPCMenu(user, blueFlower, purpleFlower, redFlower);
+            nPCMenu.ShowDialog();
+
+            if (nPCMenu.DialogResult != DialogResult.Cancel)
+            {
+                pictureBox8.BackgroundImage = null;
+                pictureBox8.Enabled = false;
+                timer2.Stop();
+                timer2.Start();
+                NPCTimer.Start();
+            }
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            user.Money -= 50;
+            pictureBox8.BackgroundImage = null;
+            pictureBox8.Enabled = false;
+            NPCTimer.Start();
         }
     }
 }

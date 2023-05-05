@@ -54,6 +54,13 @@
     <Compile Include="inventar.Designer.cs">
       <DependentUpon>inventar.cs</DependentUpon>
     </Compile>
+    <Compile Include="NPC.cs" />
+    <Compile Include="NPCMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NPCMenu.Designer.cs">
+      <DependentUpon>NPCMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Seeds.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +96,9 @@
     <Compile Include="User.cs" />
     <EmbeddedResource Include="inventar.resx">
       <DependentUpon>inventar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NPCMenu.resx">
+      <DependentUpon>NPCMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Seeds.resx">
       <DependentUpon>Seeds.cs</DependentUpon>
@@ -180,6 +190,7 @@
     <None Include="textures\BlueSeeds.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="textures\blueFlower.jpg" />
     <Content Include="textures\emptyWaterBoiler-removebg-preview.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -222,14 +233,19 @@
     <None Include="textures\podsobka.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="textures\NPCMenu.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Content Include="textures\purpleFlower-removebg-preview.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="textures\PurpleSeeds.jpg" />
     <None Include="textures\RedSeeds.jpg" />
+    <None Include="textures\purpleFlower.jpg" />
     <Content Include="textures\redFlower-removebg-preview.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="textures\redFlower.jpg" />
     <Content Include="textures\seeda-removebg-preview.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -245,7 +261,9 @@
     <None Include="textures\ShopWallpaper.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="textures\shopButton.jpg" />
+    <None Include="textures\shopButton.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Content Include="textures\smallBlueFlower-removebg-preview.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
