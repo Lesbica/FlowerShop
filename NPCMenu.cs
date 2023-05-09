@@ -18,15 +18,17 @@ namespace FlowerShop
         private BlueFlower blueFlower;
         private PurpleFlower purpleFlower;
         private RedFlower redFlower;
+        private NPC nPC;
         private List<string> labelValues = new List<string>();
 
-        public NPCMenu(User user, BlueFlower blueFlower, PurpleFlower purpleFlower, RedFlower redFlower)
+        public NPCMenu(User user, BlueFlower blueFlower, PurpleFlower purpleFlower, RedFlower redFlower, NPC nPC)
         {
             InitializeComponent();
             this.user = user;
             this.blueFlower = blueFlower;
             this.purpleFlower = purpleFlower;
             this.redFlower = redFlower;
+            this.nPC = nPC;
             for (int i = this.Controls.Count - 1; i >= 0; i--)
             {
                 Control control = this.Controls[i];
@@ -45,7 +47,11 @@ namespace FlowerShop
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.OK;
-            user.Money -= 10;
+            if(user.Money >= 10)
+            {
+                user.Money -= 10;
+            }
+
         }
 
         private void NPCMenu_FormClosing(object sender, FormClosingEventArgs e)
@@ -58,6 +64,7 @@ namespace FlowerShop
                 labelValues.Add(label5.Text);
                 labelValues.Add(label4.Text);
                 labelValues.Add(label3.Text);
+                labelValues.Add(label2.Text);
 
                 string filePath = @"textures\NPCData.txt";
 
@@ -93,6 +100,7 @@ namespace FlowerShop
                 randomnumber = rand.Next(11);
                 label3.Text = randomnumber.ToString();
                 label1.Text = (Convert.ToInt32(label5.Text) * 12 + Convert.ToInt32(label4.Text) * 14 + Convert.ToInt32(label3.Text) * 15).ToString();
+                label2.Text = nPC.RandomReplic();
 
             }
             else
@@ -110,6 +118,7 @@ namespace FlowerShop
                 label5.Text = labelValues[0];
                 label4.Text = labelValues[1];
                 label3.Text = labelValues[2];
+                label2.Text = labelValues[3];
                 label1.Text = (Convert.ToInt32(label5.Text) * 12 + Convert.ToInt32(label4.Text) * 14 + Convert.ToInt32(label3.Text) * 15).ToString();
 
             }

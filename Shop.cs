@@ -51,7 +51,7 @@ namespace FlowerShop
             if (!Application.OpenForms.OfType<podsobka>().Any())
             {
                 podsobka podsobka1 = new podsobka(user, blueFlower, purpleFlower, redFlower);
-                podsobka1.Show();
+                podsobka1.ShowDialog();
             }
 
         }
@@ -90,7 +90,7 @@ namespace FlowerShop
         {
 
             NPCTimer.Stop();
-            NPCMenu nPCMenu = new NPCMenu(user, blueFlower, purpleFlower, redFlower);
+            NPCMenu nPCMenu = new NPCMenu(user, blueFlower, purpleFlower, redFlower, nPC);
             nPCMenu.ShowDialog();
 
             if (nPCMenu.DialogResult != DialogResult.Cancel)
@@ -105,7 +105,6 @@ namespace FlowerShop
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            user.Money -= 50;
             pictureBox8.BackgroundImage = null;
             pictureBox8.Enabled = false;
             NPCTimer.Start();
